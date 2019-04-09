@@ -32,12 +32,12 @@ int main()
   int x = 10, y = 5;
 
   Math math = Math(x,y);
-  int addtion = math.add();
+  int addition = math.add();
   int subtraction = math.subtract();
   int multiplication = math.multiply();
   int division = math.divide();
 
-  std::cout << x << " + " << y << " = " << addtion << '\n';
+  std::cout << x << " + " << y << " = " << addition << '\n';
   std::cout << x << " - " << y << " = " << subtraction << '\n';
   std::cout << x << " * " << y << " = " << multiplication << '\n';
   std::cout << x << " / " << y << " = " << division << '\n';
